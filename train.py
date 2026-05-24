@@ -6,8 +6,8 @@ from datetime import datetime
 # TELEGRAM CONFIG
 # =========================================================
 
-BOT_TOKEN = "8943106656:AAErw-gaomdDJniYbNWhRYTEZiXcnbA60uQ"
-CHAT_ID   = "5511540751"
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+CHAT_ID   = os.getenv("CHAT_ID")
 
 # =========================================================
 # TRAIN DETAILS
